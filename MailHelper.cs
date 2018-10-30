@@ -12,7 +12,7 @@ namespace Key_Guard_KS
     {
         public string HostSMTP => "smtp.gmail.com";
         public string LoginSMTP => "ks.key.guard@gmail.com";
-        public string PasswordIMAP => "A192837465!";
+        public string PasswordIMAP => "*******";
         public int Port => 587;
         public bool Ssl { get => true; set { } }
         public string TempBody { get; set; }
